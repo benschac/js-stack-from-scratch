@@ -1,6 +1,6 @@
-/* eslint-disable no-console */
 // @flow
-export default class Dog {
+
+class Dog {
   name: string
 
   constructor(name: string) {
@@ -8,6 +8,8 @@ export default class Dog {
   }
 
   bark() {
-    console.log(`Wah wah, I'm ${this.name}`)
+    return `Wah wah, I am ${this.name}`
   }
 }
+
+export default Dog
